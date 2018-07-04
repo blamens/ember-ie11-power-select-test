@@ -1,7 +1,17 @@
-# ie11-power-select-test
+# ember-ie11-power-select-test
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+To test this:
+
+* `git clone <repository-url>` this repository
+* `cd ie11-power-select-test`
+* `yarn; ember s`
+
+You will see that all the power selects are opened by default in Internet Explorer 11 (all other browser do not open them).
+
+* `open package.json and change ember-source to 3.0.0 `
+* `rimraf dist tmp node_modules yarn.lock; yarn; ember s`
+
+If you open up the app in Internet Explorer 11 now, you will see that the power selects are all closed.
 
 ## Prerequisites
 
@@ -11,12 +21,6 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/) (with NPM)
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd ie11-power-select-test`
-* `npm install`
 
 ## Running / Development
 
