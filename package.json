@@ -1,0 +1,41 @@
+{
+  "name": "ie11-power-select-test",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Test app for ember-power-select with ember-source 3+ and Internet Explorer 11",
+  "license": "MIT",
+  "author": "",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "repository": "",
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "ember test"
+  },
+  "devDependencies": {
+    "broccoli-asset-rev": "^2.7.0",
+    "ember-cli": "~3.1.4",
+	"ember-cli-app-version": "^3.2.0",
+    "ember-cli-babel": "^6.14.1",
+    "ember-cli-dependency-checker": "^2.1.1",
+	"ember-cli-htmlbars": "^2.0.3",
+    "ember-cli-htmlbars-inline-precompile": "^1.0.3",
+    "ember-cli-inject-live-reload": "^1.7.0",
+    "ember-cli-qunit": "^4.3.2",
+    "ember-cli-shims": "^1.2.0",
+    "ember-cli-sri": "^2.1.1",
+    "ember-cli-uglify": "^2.1.0",
+    "ember-export-application-global": "^2.0.0",
+	"ember-power-select": "2.0.3",
+    "ember-load-initializers": "^1.1.0",
+    "ember-resolver": "^4.5.6",
+    "ember-source": "3.1.0",
+    "loader.js": "^4.7.0"
+  },
+  "engines": {
+    "node": "6.* || >= 8.*"
+  }
+}
