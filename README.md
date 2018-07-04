@@ -1,5 +1,8 @@
 # ember-ie11-power-select-test
 
+Check out the difference between IE11 and other browsers on:
+https://ember-ie11-power-select-test.herokuapp.com/
+
 To test this:
 
 * `git clone <repository-url>` this repository
